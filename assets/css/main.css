@@ -2179,7 +2179,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 30em;
+/*           change this height value for banner size!! */
+			height: 10em;
 			border-radius: 0;
 		}
 
