@@ -52,7 +52,7 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/cassie3.jpg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
@@ -77,15 +77,18 @@
                                             <!--<a href="javascript:;" class="image"><img src="images/models.png" alt="" /></a> -->
                                             <div class="inner">
                                                 <h4>Inverse Optimal Control</h4>
-                                                <p>Given a set of observations (e.g., joint angles and torques) from a dynamic human task, inverse optimal control (IOC) assumes that the data are the result of an optimal control problem and aims to uncover the cost function minimized by this data. In other words, humans may be determmining the optimal torques to apply to their joints according to certain criteria, such as minimizing energy; IOC helps uncover what criteria is important. Once this optimality criteria is established, the cost can be used to predict how a human may respond to a perturbation during motion. Knowledge of how a human reponds to disturbances can be useful in designing controllers for wearable robotics.</p>
+                                                <p>Humans may be determining the optimal torques to apply to their joints according to certain criteria, such as minimizing energy. Given a set of observations (e.g., joint angles and torques) from a dynamic human task, inverse optimal control (IOC) helps uncover a <b>cost function</b>, which identifies important criteria.</p>
+                                                <p>Once this optimality criteria is established, the cost function can be used to predict how a human may respond to a perturbation during motion. Knowledge of how a human reponds to disturbances can be useful in designing controllers for wearable robotics.</p>
                                                 <p>In my IOC work, I use experimental observations from 11 subjects during the sit-to-stand motion to compare cost functions between subjects, connect the cost functions to physical quantities, and investigate how well IOC can predict the response to a cable-pull perturbation.</p>
+                                                <a href="javascript:;" class="image"><img src="images/cablePulls.png" alt="" /></a>
+                                                <p>The figure above shows an example of IOC prediction results. A subject's sit-to-stand motion has been modeled as an inverted pendlulm. Predictions of the angular position and velocity after a cable-pull perturbation are shown as the dotted lines.</p>
                                             </div>
                                         </article>
                                         <article>
                                                 <h4>Sit-To-Stand Stability</h4>
                                             <!-- <a href="javascript:;" class="image"><img src="images/basin_step.jpg" alt="" /></a> -->
                                                 <p>Fall risk can be mitigated by identifying those who are unstable and providing targeted physical therapy. However, no existing method of quantifying stability in human motion has been shown to reliably predict fallers. We use dynamic modeling and reachability to create Stability Basins, which characterize the set of perturbations one can withstand while completing a dynamic task.</p>
-                                                <a href="javascript:;" class="image"><img src="images/SB_exp_model.png" alt="" /></a>
+                                                <a href="javascript:;" class="image"><img src="images/SBmodeling2.png" alt="" /></a>
                                                 <p>To investigate whether our method correctly estimated the stable region, we conducted an experiment where subjects were perturbed by motor-driven cable pulls during the sit-to-stand motion. We formed and validated individualized Stability Basins for 11 subjects, confirming that our analysis accurately predicted the instances where the subject stepped or sat back down in response to perturbation.</p>
                                                 <a href="javascript:;" class="image"><img src="images/basins.png" alt="" /></a>
                                                 <p>The figure above shows all successful sit-to-stand trials contained within the Stability Basin, and an example of a perturbed trial where failure was predicted before the step occurred.</p>
