@@ -2143,6 +2143,12 @@ input, select, textarea {
 			display: block;
 		}
 
+        .image.two {
+            max-width:720px;
+            width:auto;
+            height:auto;
+        }
+
 		.image.left {
 			float: left;
 			margin: 0 2.5em 2em 0;
